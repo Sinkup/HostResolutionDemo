@@ -14,6 +14,7 @@
 		027FA6461AC3F725009644AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 027FA6451AC3F725009644AC /* Images.xcassets */; };
 		027FA6491AC3F725009644AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 027FA6471AC3F725009644AC /* LaunchScreen.xib */; };
 		027FA6551AC3F725009644AC /* HostResolutionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 027FA6541AC3F725009644AC /* HostResolutionDemoTests.m */; };
+		027FA66B1AC3F8D6009644AC /* SKHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 027FA66A1AC3F8D6009644AC /* SKHost.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		027FA64E1AC3F725009644AC /* HostResolutionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HostResolutionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		027FA6531AC3F725009644AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		027FA6541AC3F725009644AC /* HostResolutionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HostResolutionDemoTests.m; sourceTree = "<group>"; };
+		027FA6691AC3F8D6009644AC /* SKHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKHost.h; sourceTree = "<group>"; };
+		027FA66A1AC3F8D6009644AC /* SKHost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKHost.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				027FA63D1AC3F725009644AC /* AppDelegate.m */,
 				027FA63F1AC3F725009644AC /* ViewController.h */,
 				027FA6401AC3F725009644AC /* ViewController.m */,
+				027FA6691AC3F8D6009644AC /* SKHost.h */,
+				027FA66A1AC3F8D6009644AC /* SKHost.m */,
 				027FA6421AC3F725009644AC /* Main.storyboard */,
 				027FA6451AC3F725009644AC /* Images.xcassets */,
 				027FA6471AC3F725009644AC /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				027FA66B1AC3F8D6009644AC /* SKHost.m in Sources */,
 				027FA6411AC3F725009644AC /* ViewController.m in Sources */,
 				027FA63E1AC3F725009644AC /* AppDelegate.m in Sources */,
 				027FA63B1AC3F725009644AC /* main.m in Sources */,
