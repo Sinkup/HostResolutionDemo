@@ -2,11 +2,8 @@
 
 根据域名获取对应的IP地址
 
-**Usage**
+**Usage:**
 
->`#import "SKHost.h"
-
-......
 ```obj-c
 [SKHost getHostAddressByName:@"www.baidu.com" completion:^(BOOL completion, NSArray *result) {
         NSLog(@"completion: %@", result);
